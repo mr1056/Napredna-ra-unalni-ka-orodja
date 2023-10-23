@@ -58,4 +58,4 @@ plot(Koordinate_loka(1, :),Koordinate_loka(2, :), 'k', 'LineWidth', 2);
 title('Razporeditev naključno generiranih točk');
     xlabel('X-os');
     ylabel('Y-os');
-    legend('Znotraj krožnice', 'Zunaj krožnice', 'Krožnica');
+    legend('Krožnica','Znotraj krožnice', 'Zunaj krožnice'); 
