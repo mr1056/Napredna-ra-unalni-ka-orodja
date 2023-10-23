@@ -55,4 +55,7 @@ scatter(x_znotraj, y_znotraj, 25, 'green', 'filled');
 hold on;
 scatter(x_zunaj, y_zunaj, 25, 'black', 'filled');
 plot(Koordinate_loka(1, :),Koordinate_loka(2, :), 'k', 'LineWidth', 2);
-
+title('Razporeditev naključno generiranih točk');
+    xlabel('X-os');
+    ylabel('Y-os');
+    legend('Znotraj krožnice', 'Zunaj krožnice', 'Krožnica');
