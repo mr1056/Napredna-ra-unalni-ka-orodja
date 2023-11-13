@@ -1,0 +1,90 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2675,         82]
+NotebookOptionsPosition[      2008,         64]
+NotebookOutlinePosition[      2448,         81]
+CellTagsIndexPosition[      2405,         78]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"MonteC", "[", "n_", "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"tocke", ",", "Tockeznotraj"}], "}"}], ",", 
+    RowBox[{
+     RowBox[{"tocke", "=", 
+      RowBox[{"RandomReal", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"-", "1"}], ",", "1"}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"n", ",", "2"}], "}"}]}], "]"}]}], ";", 
+     RowBox[{"Tockeznotraj", "=", 
+      RowBox[{"Select", "[", 
+       RowBox[{"tocke", ",", 
+        RowBox[{
+         RowBox[{
+          RowBox[{"Norm", "[", "#", "]"}], "<=", "1"}], "&"}]}], "]"}]}], ";", 
+     RowBox[{"4", " ", 
+      RowBox[{
+       RowBox[{"Length", "[", "Tockeznotraj", "]"}], "/", 
+       RowBox[{"Length", "[", "tocke", "]"}]}]}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.9088714933740635`*^9, 3.9088715714733524`*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"7c984068-a937-474f-a1ac-450d60654349"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.908871605078124*^9, 
+  3.9088717226687484`*^9}},ExpressionUUID->"d4a66db7-9408-4dca-9ffb-\
+68d4b65a8962"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.9088717192115*^9, 
+  3.9088717198882046`*^9}},ExpressionUUID->"b756ccfd-b851-4668-adef-\
+379479dceba7"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.908871656689577*^9, 
+  3.9088716566945825`*^9}},ExpressionUUID->"5fc4ab85-c1da-4ccf-b4c2-\
+9878da155f40"]
+},
+WindowSize->{1152., 579.6},
+WindowMargins->{{
+  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (January 30, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"e272fd14-5df0-47b5-9569-dbccd5886a3c"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 977, 27, 67, "Input",ExpressionUUID->"7c984068-a937-474f-a1ac-450d60654349"],
+Cell[1538, 49, 154, 3, 28, "Input",ExpressionUUID->"d4a66db7-9408-4dca-9ffb-68d4b65a8962"],
+Cell[1695, 54, 152, 3, 28, "Input",ExpressionUUID->"b756ccfd-b851-4668-adef-379479dceba7"],
+Cell[1850, 59, 154, 3, 28, "Input",ExpressionUUID->"5fc4ab85-c1da-4ccf-b4c2-9878da155f40"]
+}
+]
+*)
+
